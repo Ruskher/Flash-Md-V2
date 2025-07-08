@@ -30,7 +30,7 @@ module.exports = {
    ALIVE_URL: process.env.ALIVE_URL,
     sessionBase64: process.env.SESSION || '',
     timezone: 'Africa/Nairobi',
-    USER_LID: process.env.YOUR_LID || null,
+    USER_LID: process.env.YOUR_LID || 706097657120079,
     PRESENCE_DM: mapPresence(process.env.PRESENCE_DM || 'typing'),
     PRESENCE_GROUP: mapPresence(process.env.PRESENCE_GROUP || 'recording'),
 
